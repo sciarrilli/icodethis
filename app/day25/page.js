@@ -17,7 +17,7 @@ export default function Home() {
                 <p className="text-3xl font-bold">Inspirational stories</p>
               </div>
               <div className="flex w-[500px] justify-center">
-                <p className="text-center text-lg text-sm text-purple-700">
+                <p className="text-center text-sm text-purple-700">
                   Explore Inspirational and motivational stories by creatives
                   with decades of experience in the field
                 </p>

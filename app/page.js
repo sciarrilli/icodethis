@@ -29,7 +29,7 @@ export default function Home() {
     { id: 25, image: "/day25.png" },
     { id: 26, image: "/day26.png" },
     { id: 27, image: "/day27.png" },
-    { id: 28, image: "/card-top.jpg" },
+    { id: 28, image: "/day28.png" },
     { id: 29, image: "/card-top.jpg" },
     { id: 30, image: "/card-top.jpg" },
     { id: 31, image: "/card-top.jpg" },
