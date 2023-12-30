@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <body className="flex min-h-screen items-center justify-center bg-gray-500 p-6 align-middle">
+    <body className="flex h-screen items-center justify-center bg-gray-500 p-6 align-middle">
       <div className="flex items-center bg-gray-100">
         <img
           className="m-4 ml-8 h-12 w-12 rounded-full"

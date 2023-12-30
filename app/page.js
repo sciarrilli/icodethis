@@ -38,13 +38,12 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <main className="flex w-full flex-1 flex-col items-center justify-center px-10 text-center">
         <p className="text-4xl font-bold">
-          iCodeMas <span className="text-blue-600">with TailwindCSS</span>
-        </p>
-
-        <p className="mt-2 text-2xl">
-          <a className="text-blue-600" href="https://twitter.com/sciarrilli">
-            Nick Sciarrilli
-          </a>
+          iCodeThis <span className="text-lg">by: </span>
+          <span className="mt-2 text-lg">
+            <a className="text-blue-600" href="https://twitter.com/sciarrilli">
+              Nick Sciarrilli
+            </a>
+          </span>
         </p>
 
         <section className="body-font text-gray-800">
@@ -53,6 +52,7 @@ export default function Home() {
               <p className="pb-2 text-2xl font-semibold">December 2024</p>
             </div>
             <div className="grid grid-cols-7">
+              <div className="col-start-5"></div>
               {challenges.map((challenge) => {
                 return (
                   //  <a href={"day" + challenge.toString()}>
